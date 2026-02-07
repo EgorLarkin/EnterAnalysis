@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация об абитуриенте</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Боковая панель -->
+        <aside class="sidebar" id="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <button id="sidebarToggle" class="sidebar-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="/" class="nav-item">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Главная</span>
+                </a>
+                <a href="/" class="nav-item">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Списки</span>
+                </a>
+                <a href="/" class="nav-item">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Аналитика</span>
+                </a>
+                <a href="/" class="nav-item">
+                    <i class="fa-solid fa-file-import"></i>
+                    <span>Импорт</span>
+                </a>
+                <a href="/" class="nav-item">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <span>Отчеты</span>
+                </a>
+                <a href="/" class="nav-item">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Настройки</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            <!-- Шапка -->
+            <header class="top-bar">
+                <div class="header-left">
+                    <h1>Карточка абитуриента</h1>
+                </div>
+                <div class="header-right">
+                    <div class="date-picker">
+                        <span id="currentDate"></span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-grid">
+                <div class="content-row">
+                    <div class="back-link" style="margin-bottom: 20px;">
+                        <a href="/" class="btn-back">← Назад к списку</a>
+                    </div>
+
+                    <!-- Секция аналитики (скрыта по умолчанию) -->
+                    <div id="analyticsSection" class="analytics-section" style="display: none; margin-bottom: 30px; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h2>Статус и Аналитика</h2>
+                        <div class="analytics-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 15px;">
+                            <div class="stat-card">
+                                <div class="stat-label">Текущий статус</div>
+                                <div class="stat-value" id="statusValue">-</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-label">Общий балл</div>
+                                <div class="stat-value" id="totalScoreValue">-</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-label">Позиция в рейтинге</div>
+                                <div class="stat-value" id="rankValue">-</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-label">Шанс поступления</div>
+                                <div class="stat-value" id="chanceValue">-</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="applicant-form">
+                        <form id="applicantForm" enctype="multipart/form-data">
+                            <div class="form-section">
+                                <h2>Личные данные</h2>
+                                <div class="form-group">
+                                    <label for="fullName">ФИО:</label>
+                                    <input type="text" id="fullName" name="fullName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="birthDate">Дата рождения:</label>
+                                    <input type="date" id="birthDate" name="birthDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Телефон:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h2>Индивидуальные достижения</h2>
+                                <div class="achievements-list" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="gto" data-points="5">
+                                        <span>Золотой значок ГТО (+5 баллов)</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="medal" data-points="10">
+                                        <span>Аттестат с отличием (+10 баллов)</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="olympiad" data-points="7">
+                                        <span>Участие в олимпиадах (+7 баллов)</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="volunteer" data-points="3">
+                                        <span>Волонтерская деятельность (+3 балла)</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label>Бонусные баллы: <span id="bonusPointsDisplay">0</span></label>
+                                    <input type="hidden" id="bonusPoints" name="bonusPoints" value="0">
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h2>Выбор факультета</h2>
+                                <div class="form-group">
+                                    <label for="faculty">Факультет:</label>
+                                    <select id="faculty" name="faculty" required>
+                                        <option value="">Выберите факультет</option>
+                                        <option value="applied_math">Прикладная математика</option>
+                                        <option value="informatics">Информатика</option>
+                                        <option value="economics">Экономика</option>
+                                        <option value="management">Менеджмент</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h2>Результаты ЕГЭ</h2>
+                                <div class="form-group">
+                                    <label for="mathScore">Математика:</label>
+                                    <input type="number" id="mathScore" name="mathScore" min="0" max="100" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="russianScore">Русский язык:</label>
+                                    <input type="number" id="russianScore" name="russianScore" min="0" max="100" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="physicsScore">Физика/Информатика:</label>
+                                    <input type="number" id="physicsScore" name="physicsScore" min="0" max="100" required>
+                                </div>
+                                <div class="form-group total-score">
+                                    <label>Общий балл:</label>
+                                    <span id="totalScore">0</span>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h2>Документы</h2>
+                                <div class="form-group">
+                                    <label for="examConfirmation">Документ о подтверждении результатов ЕГЭ:</label>
+                                    <input type="file" id="examConfirmation" name="examConfirmation" 
+                                           accept=".pdf,.jpg,.jpeg,.png" required>
+                                    <small>Загрузите справку из Госуслуг или другой документ (PDF, JPG, PNG)</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="passport">Копия паспорта:</label>
+                                    <input type="file" id="passport" name="passport" 
+                                           accept=".pdf,.jpg,.jpeg,.png" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="certificate">Аттестат:</label>
+                                    <input type="file" id="certificate" name="certificate" 
+                                           accept=".pdf,.jpg,.jpeg,.png" required>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h2>Индивидуальные достижения</h2>
+                                <div class="achievements-list" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="gto" data-points="5">
+                                        <span>Золотой значок ГТО (+5 баллов)</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="medal" data-points="10">
+                                        <span>Аттестат с отличием (+10 баллов)</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="olympiad" data-points="7">
+                                        <span>Участие в олимпиадах (+7 баллов)</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="checkbox" name="achievement" value="volunteer" data-points="3">
+                                        <span>Волонтерская деятельность (+3 балла)</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label>Бонусные баллы: <span id="bonusPointsDisplay">0</span></label>
+                                    <input type="hidden" id="bonusPoints" name="bonusPoints" value="0">
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h2>Дополнительная информация</h2>
+                                <div class="form-group">
+                                    <label for="achievements">Индивидуальные достижения (олимпиады, конкурсы и т.д.):</label>
+                                    <textarea id="achievements" name="achievements" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn-submit">Отправить заявку</button>
+                                <button type="reset" class="btn-reset">Очистить форму</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="statusMessage" class="status-message" style="display:none;"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/script.js"></script>
+    <script src="/applicant.js"></script>
+</body>
+</html>
