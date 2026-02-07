@@ -1,0 +1,104 @@
+<mxfile host="Electron" modified="2024-02-08T10:00:00.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.0.0 Chrome/120.0.0.0 Electron/28.0.0 Safari/537.36" etag="simple-v2" version="21.0.0" type="device">
+  <diagram id="NLV-Simple" name="NLV Structure">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- === FRONTEND CONTAINER === -->
+        <mxCell id="2" value="Frontend (Client Browser)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="300" height="400" as="geometry" />
+        </mxCell>
+
+        <!-- UI Components -->
+        <mxCell id="3" value="User Interface (index.html)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="260" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="4" value="- Dashboard Table&#xa;- Admin Forms&#xa;- Upload Controls" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Logic Controller -->
+        <mxCell id="5" value="Controller (script.js)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="260" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="6" value="- Fetch API (Network)&#xa;- generateDailyReport()&#xa;- DOM Manipulation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- === BACKEND CONTAINER === -->
+        <mxCell id="10" value="Backend (Node.js Server)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="340" height="400" as="geometry" />
+        </mxCell>
+
+        <!-- API Layer -->
+        <mxCell id="11" value="API Routes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="POST /import | POST /upload-pdf&#xa;GET /applicants | POST /login" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="410" y="125" width="280" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Business Logic -->
+        <mxCell id="13" value="Core Logic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="handleImport() : CSV Parsing&#xa;recalculateAdmission() : Sorting/Quotas&#xa;Priority Mapping (1-4 -> Faculty)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Libs -->
+        <mxCell id="15" value="Libraries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="pdf-parse&#xa;iconv-lite&#xa;nodemailer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="280" height="60" as="geometry" />
+        </mxCell>
+
+
+        <!-- === STORAGE CONTAINER === -->
+        <mxCell id="20" value="Storage (File System)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="200" height="400" as="geometry" />
+        </mxCell>
+
+        <!-- DB -->
+        <mxCell id="21" value="db.json" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Applicants Data&#xa;Settings&#xa;Users" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="170" width="180" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Files -->
+        <mxCell id="23" value="Assets / Fonts" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="820" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- === CONNECTIONS === -->
+        
+        <!-- Frontend to API -->
+        <mxCell id="30" value="HTTP (JSON)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="240" />
+              <mxPoint x="360" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Logic to DB -->
+        <mxCell id="31" value="Read / Write" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="13" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Logic to Libs (Internal) -->
+        <mxCell id="32" value="Uses" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
