@@ -401,6 +401,56 @@ async function saveAdminState(isActive) {
 }
 
 // ========================================
+// НАСТРОЙКА ШРИФТА ДЛЯ PDF
+// ========================================
+async function loadDejaVuFontBase64() {
+    if (window.dejavuFontBase64) return window.dejavuFontBase64;
+
+    const paths = [
+        '/fonts/DejaVuSans.ttf',
+        '/DejaVuSans.ttf',
+        'https://cdn.jsdelivr.net/gh/dejavu-fonts/dejavu-fonts@version_2_37/ttf/DejaVuSans.ttf'
+    ];
+
+    for (const p of paths) {
+        try {
+            const resp = await fetch(p);
+            if (!resp.ok) continue;
+            const buf = await resp.arrayBuffer();
+            const bytes = new Uint8Array(buf);
+            let binary = '';
+            const chunk = 0x8000;
+            for (let i = 0; i < bytes.length; i += chunk) {
+                binary += String.fromCharCode.apply(null, Array.prototype.slice.call(bytes, i, i + chunk));
+            }
+            const base64 = btoa(binary);
+            if (base64 && base64.length > 1000) {
+                window.dejavuFontBase64 = base64;
+                return base64;
+            }
+        } catch (err) {
+            // ignore and try next
+        }
+    }
+    return null;
+}
+
+function applyPdfFont(doc) {
+    let pdfFontName = 'helvetica';
+    try {
+        if (window.dejavuFontBase64) {
+            doc.addFileToVFS('DejaVuSans.ttf', window.dejavuFontBase64);
+            doc.addFont('DejaVuSans.ttf', 'DejaVu', 'normal');
+            doc.setFont('DejaVu', 'normal');
+            pdfFontName = 'DejaVu';
+        }
+    } catch (e) {
+        console.warn('Font apply skipped:', e);
+    }
+    return pdfFontName;
+}
+
+// ========================================
 // ИСПРАВЛЕННЫЕ ФУНКЦИИ ЭКСПОРТА В PDF (ПОЛНЫЙ ОТЧЁТ)
 // ========================================
 window.exportToPDF = async function() {
@@ -417,45 +467,8 @@ window.exportToPDF = async function() {
             format: 'a4'
         });
         
-        let pdfFontName = 'helvetica';
-        
-        // Регистрация шрифта
-        async function tryRegisterFont() {
-            try {
-                let base64 = window.dejavuFontBase64 || null;
-                if (!base64) {
-                    const paths = [
-                        '/fonts/DejaVuSans.ttf',
-                        '/DejaVuSans.ttf',
-                        'https://cdn.jsdelivr.net/gh/dejavu-fonts/dejavu-fonts@version_2_37/ttf/DejaVuSans.ttf'
-                    ];
-                    for (const p of paths) {
-                        try {
-                            const resp = await fetch(p);
-                            if (!resp.ok) continue;
-                            const buf = await resp.arrayBuffer();
-                            const bytes = new Uint8Array(buf);
-                            let binary = '';
-                            const chunk = 0x8000;
-                            for (let i = 0; i < bytes.length; i += chunk) {
-                                binary += String.fromCharCode.apply(null, Array.prototype.slice.call(bytes, i, i + chunk));
-                            }
-                            base64 = btoa(binary);
-                            break;
-                        } catch (err) {}
-                    }
-                }
-                if (base64 && base64.length > 1000) {
-                    doc.addFileToVFS('DejaVuSans.ttf', base64);
-                    doc.addFont('DejaVuSans.ttf', 'DejaVu', 'normal');
-                    doc.setFont('DejaVu', 'normal');
-                    pdfFontName = 'DejaVu';
-                }
-            } catch (e) {
-                console.warn('Font registration skipped:', e);
-            }
-        }
-        await tryRegisterFont();
+        await loadDejaVuFontBase64();
+        const pdfFontName = applyPdfFont(doc);
         
         // ЗАГРУЗКА ДАННЫХ
         const [appRes, facRes] = await Promise.all([
@@ -613,7 +626,7 @@ window.exportToPDF = async function() {
                 head: [['ID', 'ФИО', 'ОП', 'Баллы', 'Согласие']],
                 body: admitted.map(a => [
                     a.id,
-                    a.fullName || 'Не указано',
+                    cleanFullName(a.fullName) || 'Не указано',
                     a.faculty,
                     a.score || 0,
                     a.hasConsent ? 'Да' : 'Нет'
@@ -639,7 +652,7 @@ window.exportToPDF = async function() {
                 body: applicants.slice(0, 100).map((a, i) => [
                     i + 1,
                     a.id,
-                    (a.fullName || '').substring(0, 25),
+                    (cleanFullName(a.fullName) || '').substring(0, 25),
                     a.faculty,
                     a.score || 0,
                     a.status === 'допущен' ? 'Допущен' : 'На рассм.'
@@ -724,7 +737,40 @@ window.generateDailyReport = async function() {
         
         // Получаем дату для отчета
         const reportDateInput = document.getElementById('reportDateInput');
-        const reportDate = reportDateInput?.value || new Date().toISOString().split('T')[0];
+        const rawReportDate = reportDateInput?.value || '';
+        const reportDate = rawReportDate || new Date().toISOString().split('T')[0];
+        const reportDateNormalized = (() => {
+            if (!reportDate) return '';
+            // Формат ISO yyyy-mm-dd
+            if (/^\d{4}-\d{2}-\d{2}$/.test(reportDate)) return reportDate;
+
+            // Формат DD.MM.YYYY или DD.MM.YY
+            if (/^\d{1,2}\.\d{1,2}\.\d{2,4}$/.test(reportDate)) {
+                const parts = reportDate.split('.');
+                let [dd, mm, yy] = parts.map(p => p.padStart(2, '0'));
+                if (yy.length === 2) yy = '20' + yy;
+                return `${yy}-${mm}-${dd}`;
+            }
+
+            // Формат DD.MM (подставляем год 2025 по умолчанию)
+            if (/^\d{1,2}\.\d{1,2}$/.test(reportDate)) {
+                const [dd, mm] = reportDate.split('.').map(p => p.padStart(2, '0'));
+                const year = '2025';
+                return `${year}-${mm}-${dd}`;
+            }
+
+            // Поддержка разделителей - или /
+            const alt = reportDate.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+            if (alt) {
+                let [, dd, mm, yy] = alt;
+                dd = dd.padStart(2, '0'); mm = mm.padStart(2, '0');
+                if (yy.length === 2) yy = '20' + yy;
+                return `${yy}-${mm}-${dd}`;
+            }
+
+            // Если ничего не подошло — вернуть как есть (возможно yyyy-mm-dd из datepicker)
+            return reportDate;
+        })();
         
         // Загрузка данных
         const [appRes, facRes] = await Promise.all([
@@ -736,27 +782,22 @@ window.generateDailyReport = async function() {
         const faculties = await facRes.json();
         
         if (!Array.isArray(applicants)) applicants = applicants.applicants || [];
+
+        const dayApplicants = reportDateNormalized
+            ? applicants.filter(a => (a.submissionDate || '').startsWith(reportDateNormalized))
+            : applicants;
         
         // Финальная сборка doc
         const doc = new jsPDF();
-        let pdfFontName = 'helvetica';
-        
-        // Шрифт
-        try {
-            if (window.dejavuFontBase64) {
-                 doc.addFileToVFS('DejaVuSans.ttf', window.dejavuFontBase64);
-                 doc.addFont('DejaVuSans.ttf', 'DejaVu', 'normal');
-                 doc.setFont('DejaVu', 'normal');
-                 pdfFontName = 'DejaVu';
-            }
-        } catch(e) {}
+        await loadDejaVuFontBase64();
+        const pdfFontName = applyPdfFont(doc);
         
         // 1.1 Заголовок
         doc.setFontSize(20);
         doc.text('Дневной отчет по приемной кампании', 105, 20, {align: 'center'});
         doc.setFontSize(12);
         doc.text(`Дата формирования: ${new Date().toLocaleString()}`, 14, 35);
-        doc.text(`За день: ${reportDate}`, 14, 42);
+        doc.text(`За день: ${reportDateNormalized || reportDate}`, 14, 42);
         
         let y = 55;
         
@@ -791,7 +832,7 @@ window.generateDailyReport = async function() {
              doc.addImage(imgData, 'PNG', 14, y, 100, 50); // width 100, height 50
              
              // Список зачисленных (справа от графика или снизу)
-             const admitted = applicants
+             const admitted = dayApplicants
                  .filter(a => a.recommendedFaculty === code && a.status === 'допущен')
                  .sort((a,b) => b.score - a.score)
                  .slice(0, 5); // Топ 5 для компактности
@@ -804,7 +845,7 @@ window.generateDailyReport = async function() {
                  doc.text('(нет зачисленных)', 120, ly);
              } else {
                  admitted.forEach(a => {
-                     doc.text(`${a.fullName} - ${a.score} б.`, 120, ly);
+                     doc.text(`${cleanFullName(a.fullName)} - ${a.score} б.`, 120, ly);
                      ly += 6;
                  });
              }
@@ -817,11 +858,11 @@ window.generateDailyReport = async function() {
         doc.setFontSize(18);
         doc.text('Общая статистика кампании', 105, 20, { align: 'center' });
         
-        const totalApps = applicants.length;
-        const uniqueApps = new Set(applicants.map(a => a.fullName)).size; // Simple unique check
-        const avgTotal = totalApps > 0 ? (applicants.reduce((acc, v) => acc + (v.score||0), 0) / totalApps).toFixed(2) : 0;
+        const totalApps = dayApplicants.length;
+        const uniqueApps = new Set(dayApplicants.map(a => cleanFullName(a.fullName))).size; // Simple unique check
+        const avgTotal = totalApps > 0 ? (dayApplicants.reduce((acc, v) => acc + (v.score||0), 0) / totalApps).toFixed(2) : 0;
         const competitionCount = Object.values(faculties).filter(f => f.passingScore !== 'НЕДОБОР').length;
-        const totalRecommended = applicants.filter(a => a.status === 'допущен').length;
+        const totalRecommended = dayApplicants.filter(a => a.status === 'допущен').length;
         
         // Рассчет мин/макс/среднего проходного
         const passingScoresNumeric = Object.values(faculties)
@@ -883,15 +924,8 @@ window.generateValidationReport = async function() {
         const faculties = await facRes.json();
         
         const doc = new jsPDF();
-        let pdfFontName = 'helvetica';
-        try {
-            if (window.dejavuFontBase64) {
-                 doc.addFileToVFS('DejaVuSans.ttf', window.dejavuFontBase64);
-                 doc.addFont('DejaVuSans.ttf', 'DejaVu', 'normal');
-                 doc.setFont('DejaVu', 'normal');
-                 pdfFontName = 'DejaVu';
-            }
-        } catch(e) {}
+        await loadDejaVuFontBase64();
+        const pdfFontName = applyPdfFont(doc);
         
         doc.setFontSize(18);
         doc.text(`Валидация алгоритма. Дата: ${reportDate}`, 14, 20);
@@ -986,15 +1020,17 @@ window.exportAnalyticsReport = async function() {
         
         const { jsPDF } = window.jspdf;
         const doc = new jsPDF();
+        await loadDejaVuFontBase64();
+        const pdfFontName = applyPdfFont(doc);
         
-        doc.setFont('helvetica', 'bold');
+        doc.setFont(pdfFontName, 'normal');
         doc.setFontSize(18);
         doc.text('Аналитический отчет приемной кампании', 105, 20, { 
             align: 'center',
             charSpace: 0.5
         });
         
-        doc.setFont('helvetica', 'normal');
+        doc.setFont(pdfFontName, 'normal');
         doc.setFontSize(10);
         const dateStr = new Date().toLocaleDateString('ru-RU');
         doc.text(`Дата: ${dateStr}`, 14, 30);
@@ -1020,11 +1056,11 @@ window.exportAnalyticsReport = async function() {
         
         let y = 45;
         doc.setFontSize(12);
-        doc.setFont('helvetica', 'bold');
+        doc.setFont(pdfFontName, 'normal');
         doc.text('Ключевые показатели:', 14, y);
         y += 8;
         
-        doc.setFont('helvetica', 'normal');
+        doc.setFont(pdfFontName, 'normal');
         doc.setFontSize(10);
         const stats = [
             `Всего абитуриентов: ${total}`,
@@ -1041,11 +1077,11 @@ window.exportAnalyticsReport = async function() {
         });
         
         y += 10;
-        doc.setFont('helvetica', 'bold');
+        doc.setFont(pdfFontName, 'normal');
         doc.text('Распределение по баллам:', 14, y);
         y += 8;
         
-        doc.setFont('helvetica', 'normal');
+        doc.setFont(pdfFontName, 'normal');
         const scoreRanges = {
             'Критический (<180)': 0,
             'Базовый (180-220)': 0,
@@ -1068,13 +1104,9 @@ window.exportAnalyticsReport = async function() {
         });
         
         const timestamp = new Date().toISOString().slice(0, 10).replace(/-/g, '');
-        
+        const reportDate = document.getElementById('reportDateInput')?.value || '';
         let filename = 'Otchet_priemnaya_komissiya';
-        if (reportDate) {
-            filename += `_${reportDate}`;
-        } else {
-            filename += `_${timestamp}`;
-        }
+        filename += reportDate ? `_${reportDate}` : `_${timestamp}`;
         
         doc.save(`${filename}.pdf`);
         showToast(`Отчет ${filename}.pdf успешно сгенерирован`, 'success');
@@ -1573,7 +1605,7 @@ async function loadApplicants() {
 
             row.innerHTML = `
                 <td>${applicant.id}</td>
-                <td>${applicant.fullName}</td>
+                <td>${cleanFullName(applicant.fullName)}</td>
                 <td><strong>${applicant.score}</strong></td>
                 <td>${statusBadge}</td>
                 <td>${actions}</td>
@@ -1795,6 +1827,16 @@ window.sortTable = function(n) {
 };
 
 // ========================================
+// ОЧИСТКА ФИО
+// ========================================
+function cleanFullName(name) {
+    if (!name) return '';
+    let cleaned = String(name).trim();
+    cleaned = cleaned.replace(/^\s*["'«]+\s*|\s*["'»]+\s*$/g, '').trim();
+    return cleaned;
+}
+
+// ========================================
 // FUZZY SEARCH
 // ========================================
 function getTrigrams(str) {
@@ -1877,7 +1919,7 @@ window.renderListsView = async function() {
             
             // Фильтр по ФИО (fuzzy search)
             if (searchQuery) {
-                const similarity = calculateFuzzySimilarity(app.fullName, searchQuery);
+                const similarity = calculateFuzzySimilarity(cleanFullName(app.fullName), searchQuery);
                 if (similarity < 0.3) return false; 
             }
             return true;
@@ -1922,7 +1964,7 @@ window.renderListsView = async function() {
             return `
                 <tr style='border-bottom: 1px solid #e2e8f0;'>
                     <td style='padding:12px;'>${app.id}</td>
-                    <td style='padding:12px;'>${app.fullName}</td>
+                    <td style='padding:12px;'>${cleanFullName(app.fullName)}</td>
                     <td style='padding:12px;'>${app.faculty} ${consentIcon}</td>
                     <td style='padding:12px;'>Пр. ${priorityNum}</td>
                     <td style='padding:12px;'><strong>${app.score}</strong></td>
@@ -2788,53 +2830,4 @@ document.addEventListener("DOMContentLoaded", () => {
     loadFacultiesForEdit();
     renderArchives();
 });
-// ========================================
 // PDF REPORT GENERATORS
-// ========================================
-window.generateDailyReport = async function() {
-    if (typeof window.jspdf === 'undefined') {
-        alert('���������� PDF �� ���������');
-        return;
-    }
-    const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
-    
-    // Add header
-    doc.setFontSize(20);
-    doc.text('Daily Admission Report', 105, 20, { align: 'center' });
-    
-    doc.setFontSize(12);
-    const date = window.currentDate || new Date().toISOString().split('T')[0];
-    doc.text('Date: ' + date, 20, 30);
-    
-    try {
-        const res = await fetch('/api/stats');
-        const stats = await res.json();
-        
-        let y = 45;
-        doc.text('Faculty Statistics:', 20, y);
-        y += 10;
-        
-        Object.entries(stats).forEach(([code, data]) => {
-            doc.text(code.toUpperCase() + ' - ' + (data.name || code), 25, y);
-            y += 7;
-            doc.text('  Count: ' + data.count, 25, y);
-            y += 7;
-            doc.text('  Avg Score: ' + data.averageScore, 25, y);
-            y += 10;
-        });
-        
-        // Add footer
-        doc.setFontSize(10);
-        doc.text('Generated by NLV Admission System', 105, 280, { align: 'center' });
-        
-        doc.save('daily_report_' + date + '.pdf');
-        
-    } catch (e) {
-        console.error('Error generating PDF:', e);
-        alert('������ ��� ��������� PDF');
-    }
-};
-
-window.generateValidationReport = window.generateDailyReport; // Reuse for now
-
