@@ -2793,7 +2793,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ========================================
 window.generateDailyReport = async function() {
     if (typeof window.jspdf === 'undefined') {
-        alert('Библиотека PDF не загружена');
+        alert('пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ PDF пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ');
         return;
     }
     const { jsPDF } = window.jspdf;
@@ -2832,7 +2832,7 @@ window.generateDailyReport = async function() {
         
     } catch (e) {
         console.error('Error generating PDF:', e);
-        alert('Ошибка при генерации PDF');
+        alert('пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ PDF');
     }
 };
 

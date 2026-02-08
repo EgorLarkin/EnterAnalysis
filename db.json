@@ -1,0 +1,4728 @@
+{
+  "applicants": [
+    {
+      "fullName": "Сидоров Сергей Никитович",
+      "math": 100,
+      "russian": 97,
+      "physics": 99,
+      "score": 300,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020437,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Лебедева Алина Андреевна",
+      "math": 100,
+      "russian": 90,
+      "physics": 87,
+      "score": 285,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020397,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Петров Даниил Никитович",
+      "math": 92,
+      "russian": 96,
+      "physics": 86,
+      "score": 284,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020455,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Козлов Иван Иванович",
+      "math": 97,
+      "russian": 93,
+      "physics": 91,
+      "score": 282,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020584,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Алексеева Екатерина Артёмовна",
+      "math": 94,
+      "russian": 92,
+      "physics": 88,
+      "score": 282,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020403,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Павлова Татьяна Максимовна",
+      "math": 90,
+      "russian": 94,
+      "physics": 88,
+      "score": 282,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020589,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеева Анна Максимовна",
+      "math": 95,
+      "russian": 82,
+      "physics": 97,
+      "score": 280,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020578,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлов Никита Иванович",
+      "math": 96,
+      "russian": 89,
+      "physics": 83,
+      "score": 277,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020434,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Лебедев Егор Дмитриевич",
+      "math": 93,
+      "russian": 87,
+      "physics": 88,
+      "score": 277,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020531,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костина Ольга Артёмовна",
+      "math": 97,
+      "russian": 77,
+      "physics": 96,
+      "score": 274,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020524,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федоров Даниил Никитович",
+      "math": 80,
+      "russian": 96,
+      "physics": 93,
+      "score": 274,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020470,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлов Иван Никитович",
+      "math": 91,
+      "russian": 79,
+      "physics": 100,
+      "score": 273,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020519,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Сидоров Даниил Артёмович",
+      "math": 93,
+      "russian": 80,
+      "physics": 91,
+      "score": 271,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020547,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Лебедев Сергей Андреевич",
+      "math": 87,
+      "russian": 77,
+      "physics": 100,
+      "score": 271,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020446,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Козлов Максим Кириллович",
+      "math": 100,
+      "russian": 79,
+      "physics": 84,
+      "score": 269,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020528,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Соколова Дарья Дмитриевна",
+      "math": 96,
+      "russian": 83,
+      "physics": 83,
+      "score": 269,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020599,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Алексеева Полина Ивановна",
+      "math": 85,
+      "russian": 84,
+      "physics": 97,
+      "score": 269,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020590,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Смирнова Елена Дмитриевна",
+      "math": 100,
+      "russian": 98,
+      "physics": 60,
+      "score": 268,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020565,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Федорова Светлана Кирилловна",
+      "math": 73,
+      "russian": 89,
+      "physics": 99,
+      "score": 268,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020592,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Васильев Роман Иванович",
+      "math": 69,
+      "russian": 94,
+      "physics": 95,
+      "score": 268,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020443,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Сидоров Илья Дмитриевич",
+      "math": 100,
+      "russian": 68,
+      "physics": 89,
+      "score": 266,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020417,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костина Дарья Кирилловна",
+      "math": 98,
+      "russian": 69,
+      "physics": 97,
+      "score": 266,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020407,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеев Максим Кириллович",
+      "math": 84,
+      "russian": 79,
+      "physics": 95,
+      "score": 266,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020490,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Лебедева Екатерина Никитовна",
+      "math": 82,
+      "russian": 98,
+      "physics": 79,
+      "score": 266,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020469,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Алексеев Егор Артёмович",
+      "math": 82,
+      "russian": 77,
+      "physics": 97,
+      "score": 266,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020365,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Соколов Александр Кириллович",
+      "math": 91,
+      "russian": 76,
+      "physics": 88,
+      "score": 265,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020576,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Смирнов Никита Иванович",
+      "math": 89,
+      "russian": 81,
+      "physics": 92,
+      "score": 264,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020391,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Соколова Екатерина Сергеевна",
+      "math": 77,
+      "russian": 91,
+      "physics": 89,
+      "score": 264,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020594,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Попова Екатерина Андреевна",
+      "math": 73,
+      "russian": 95,
+      "physics": 94,
+      "score": 264,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020373,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Лебедева Софья Никитовна",
+      "math": 94,
+      "russian": 91,
+      "physics": 68,
+      "score": 262,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020358,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костин Иван Кириллович",
+      "math": 80,
+      "russian": 88,
+      "physics": 84,
+      "score": 262,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020452,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Лебедев Роман Иванович",
+      "math": 83,
+      "russian": 86,
+      "physics": 87,
+      "score": 261,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020540,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлова Ирина Александровна",
+      "math": 93,
+      "russian": 72,
+      "physics": 92,
+      "score": 260,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020390,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Сидорова Виктория Ивановна",
+      "math": 99,
+      "russian": 68,
+      "physics": 86,
+      "score": 259,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020388,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Новикова Наталья Максимовна",
+      "math": 84,
+      "russian": 96,
+      "physics": 72,
+      "score": 259,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020462,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Морозов Егор Максимович",
+      "math": 94,
+      "russian": 89,
+      "physics": 68,
+      "score": 258,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020405,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Попов Егор Дмитриевич",
+      "math": 93,
+      "russian": 68,
+      "physics": 94,
+      "score": 257,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020561,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Васильев Кирилл Дмитриевич",
+      "math": 89,
+      "russian": 81,
+      "physics": 84,
+      "score": 257,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020444,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Васильева Ольга Андреевна",
+      "math": 96,
+      "russian": 69,
+      "physics": 84,
+      "score": 256,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020532,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Смирнова Екатерина Максимовна",
+      "math": 87,
+      "russian": 88,
+      "physics": 81,
+      "score": 256,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020558,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Семенова Мария Андреевна",
+      "math": 80,
+      "russian": 80,
+      "physics": 96,
+      "score": 256,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020413,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Кузнецов Михаил Андреевич",
+      "math": 98,
+      "russian": 81,
+      "physics": 73,
+      "score": 255,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020534,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Егоров Кирилл Артёмович",
+      "math": 79,
+      "russian": 77,
+      "physics": 89,
+      "score": 255,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020364,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Волков Кирилл Сергеевич",
+      "math": 68,
+      "russian": 88,
+      "physics": 93,
+      "score": 255,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020550,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Васильев Михаил Александрович",
+      "math": 97,
+      "russian": 52,
+      "physics": 96,
+      "score": 254,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020471,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Михайлова Ольга Сергеевна",
+      "math": 95,
+      "russian": 90,
+      "physics": 65,
+      "score": 254,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020451,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Васильев Максим Артёмович",
+      "math": 93,
+      "russian": 65,
+      "physics": 94,
+      "score": 254,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020384,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Соколова Виктория Дмитриевна",
+      "math": 87,
+      "russian": 68,
+      "physics": 93,
+      "score": 254,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020546,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Алексеев Дмитрий Артёмович",
+      "math": 82,
+      "russian": 71,
+      "physics": 93,
+      "score": 253,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020560,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Новиков Артем Никитович",
+      "math": 82,
+      "russian": 65,
+      "physics": 98,
+      "score": 253,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020399,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Новиков Сергей Александрович",
+      "math": 96,
+      "russian": 57,
+      "physics": 95,
+      "score": 252,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020485,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Соколов Матвей Михайлович",
+      "math": 91,
+      "russian": 94,
+      "physics": 61,
+      "score": 252,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020597,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Федорова Юлия Максимовна",
+      "math": 87,
+      "russian": 75,
+      "physics": 90,
+      "score": 252,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020394,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлов Иван Андреевич",
+      "math": 85,
+      "russian": 68,
+      "physics": 96,
+      "score": 252,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020457,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Соколова Ольга Ивановна",
+      "math": 72,
+      "russian": 100,
+      "physics": 78,
+      "score": 252,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020409,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Семенов Артем Иванович",
+      "math": 92,
+      "russian": 85,
+      "physics": 69,
+      "score": 251,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020491,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Иванова Софья Ивановна",
+      "math": 96,
+      "russian": 74,
+      "physics": 78,
+      "score": 250,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020514,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Михайлов Михаил Максимович",
+      "math": 96,
+      "russian": 56,
+      "physics": 96,
+      "score": 250,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020442,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Павлова Елена Дмитриевна",
+      "math": 75,
+      "russian": 97,
+      "physics": 70,
+      "score": 250,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020529,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Морозов Егор Андреевич",
+      "math": 71,
+      "russian": 99,
+      "physics": 78,
+      "score": 250,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020414,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлова Елена Кирилловна",
+      "math": 51,
+      "russian": 93,
+      "physics": 100,
+      "score": 250,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020392,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Кузнецов Максим Кириллович",
+      "math": 99,
+      "russian": 88,
+      "physics": 54,
+      "score": 249,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020449,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенов Даниил Александрович",
+      "math": 76,
+      "russian": 77,
+      "physics": 87,
+      "score": 249,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020374,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Костина Юлия Александровна",
+      "math": 98,
+      "russian": 91,
+      "physics": 50,
+      "score": 248,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020535,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Морозова Наталья Артёмовна",
+      "math": 89,
+      "russian": 69,
+      "physics": 85,
+      "score": 248,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020601,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеева Елена Артёмовна",
+      "math": 76,
+      "russian": 77,
+      "physics": 86,
+      "score": 248,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020427,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федорова Ольга Артёмовна",
+      "math": 95,
+      "russian": 90,
+      "physics": 57,
+      "score": 247,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020355,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Иванова Дарья Михайловна",
+      "math": 88,
+      "russian": 70,
+      "physics": 88,
+      "score": 247,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020488,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Смирнова Юлия Артёмовна",
+      "math": 89,
+      "russian": 52,
+      "physics": 100,
+      "score": 246,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020419,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Семенова Анна Кирилловна",
+      "math": 83,
+      "russian": 99,
+      "physics": 59,
+      "score": 246,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020467,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенова Екатерина Михайловна",
+      "math": 87,
+      "russian": 97,
+      "physics": 52,
+      "score": 245,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020383,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Смирнов Роман Александрович",
+      "math": 87,
+      "russian": 57,
+      "physics": 95,
+      "score": 245,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020361,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Попов Иван Иванович",
+      "math": 78,
+      "russian": 69,
+      "physics": 94,
+      "score": 245,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020424,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Федоров Сергей Андреевич",
+      "math": 78,
+      "russian": 67,
+      "physics": 98,
+      "score": 245,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020385,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Соколова Ольга Кирилловна",
+      "math": 75,
+      "russian": 87,
+      "physics": 81,
+      "score": 245,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020396,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлов Никита Дмитриевич",
+      "math": 71,
+      "russian": 84,
+      "physics": 83,
+      "score": 245,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020429,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Волков Илья Максимович",
+      "math": 55,
+      "russian": 83,
+      "physics": 100,
+      "score": 245,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020569,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Попова Светлана Никитовна",
+      "math": 100,
+      "russian": 80,
+      "physics": 58,
+      "score": 244,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020526,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Новикова Елена Сергеевна",
+      "math": 98,
+      "russian": 57,
+      "physics": 89,
+      "score": 244,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020420,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Егорова Полина Артёмовна",
+      "math": 94,
+      "russian": 92,
+      "physics": 57,
+      "score": 244,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020439,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Кузнецов Дмитрий Кириллович",
+      "math": 82,
+      "russian": 76,
+      "physics": 77,
+      "score": 244,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020468,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егорова Светлана Никитовна",
+      "math": 80,
+      "russian": 65,
+      "physics": 92,
+      "score": 244,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020406,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Алексеева Елена Андреевна",
+      "math": 80,
+      "russian": 60,
+      "physics": 96,
+      "score": 244,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020441,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Иванов Александр Артёмович",
+      "math": 71,
+      "russian": 88,
+      "physics": 77,
+      "score": 244,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020387,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Лебедева Ирина Артёмовна",
+      "math": 70,
+      "russian": 94,
+      "physics": 76,
+      "score": 244,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020571,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлова Анна Кирилловна",
+      "math": 75,
+      "russian": 97,
+      "physics": 63,
+      "score": 243,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020410,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Кузнецова Светлана Михайловна",
+      "math": 69,
+      "russian": 74,
+      "physics": 100,
+      "score": 243,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020430,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федоров Артем Максимович",
+      "math": 65,
+      "russian": 89,
+      "physics": 87,
+      "score": 243,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020500,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Павлов Егор Кириллович",
+      "math": 87,
+      "russian": 81,
+      "physics": 69,
+      "score": 242,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020517,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Федоров Дмитрий Иванович",
+      "math": 83,
+      "russian": 55,
+      "physics": 97,
+      "score": 242,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020582,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Морозова Анна Михайловна",
+      "math": 81,
+      "russian": 93,
+      "physics": 68,
+      "score": 242,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020447,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Егоров Максим Сергеевич",
+      "math": 80,
+      "russian": 74,
+      "physics": 84,
+      "score": 242,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020357,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Павлов Матвей Кириллович",
+      "math": 77,
+      "russian": 76,
+      "physics": 80,
+      "score": 242,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020472,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костина Светлана Максимовна",
+      "math": 96,
+      "russian": 64,
+      "physics": 81,
+      "score": 241,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020418,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Морозова Екатерина Никитовна",
+      "math": 83,
+      "russian": 91,
+      "physics": 64,
+      "score": 241,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020504,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Новиков Михаил Иванович",
+      "math": 57,
+      "russian": 81,
+      "physics": 95,
+      "score": 241,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020510,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Павлова Дарья Артёмовна",
+      "math": 95,
+      "russian": 58,
+      "physics": 81,
+      "score": 240,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020369,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Федоров Андрей Кириллович",
+      "math": 91,
+      "russian": 60,
+      "physics": 81,
+      "score": 240,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020559,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Попов Андрей Дмитриевич",
+      "math": 78,
+      "russian": 87,
+      "physics": 71,
+      "score": 240,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020502,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Козлова Татьяна Максимовна",
+      "math": 100,
+      "russian": 64,
+      "physics": 66,
+      "score": 239,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020482,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Егорова Екатерина Андреевна",
+      "math": 95,
+      "russian": 67,
+      "physics": 77,
+      "score": 239,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020428,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенова Елена Сергеевна",
+      "math": 84,
+      "russian": 56,
+      "physics": 96,
+      "score": 239,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020445,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Федорова Мария Сергеевна",
+      "math": 77,
+      "russian": 94,
+      "physics": 64,
+      "score": 239,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020570,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Федорова Елена Максимовна",
+      "math": 72,
+      "russian": 84,
+      "physics": 81,
+      "score": 239,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020440,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Лебедева Светлана Михайловна",
+      "math": 79,
+      "russian": 56,
+      "physics": 93,
+      "score": 238,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020522,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Федоров Егор Дмитриевич",
+      "math": 74,
+      "russian": 91,
+      "physics": 70,
+      "score": 238,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020359,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Волкова Татьяна Дмитриевна",
+      "math": 79,
+      "russian": 83,
+      "physics": 73,
+      "score": 237,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020489,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Козлова Дарья Ивановна",
+      "math": 71,
+      "russian": 63,
+      "physics": 100,
+      "score": 237,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020596,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Костин Сергей Сергеевич",
+      "math": 55,
+      "russian": 87,
+      "physics": 89,
+      "score": 237,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020501,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Кузнецов Андрей Александрович",
+      "math": 75,
+      "russian": 57,
+      "physics": 98,
+      "score": 236,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020382,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Костина Юлия Кирилловна",
+      "math": 57,
+      "russian": 82,
+      "physics": 95,
+      "score": 236,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020380,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Костина Елена Андреевна",
+      "math": 93,
+      "russian": 61,
+      "physics": 72,
+      "score": 235,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020544,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Алексеев Дмитрий Кириллович",
+      "math": 89,
+      "russian": 89,
+      "physics": 53,
+      "score": 235,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020371,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Иванова Полина Кирилловна",
+      "math": 85,
+      "russian": 54,
+      "physics": 95,
+      "score": 235,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020580,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федорова Полина Максимовна",
+      "math": 73,
+      "russian": 56,
+      "physics": 96,
+      "score": 235,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020520,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федорова Полина Дмитриевна",
+      "math": 64,
+      "russian": 78,
+      "physics": 84,
+      "score": 235,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020423,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Лебедев Егор Александрович",
+      "math": 67,
+      "russian": 68,
+      "physics": 92,
+      "score": 234,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020585,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Кузнецова Виктория Максимовна",
+      "math": 63,
+      "russian": 87,
+      "physics": 79,
+      "score": 234,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020508,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Михайлова Татьяна Никитовна",
+      "math": 100,
+      "russian": 76,
+      "physics": 51,
+      "score": 233,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020412,
+      "recommendedFaculty": "pm"
+    },
+    {
+      "fullName": "Семенов Даниил Кириллович",
+      "math": 90,
+      "russian": 62,
+      "physics": 81,
+      "score": 233,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020415,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новикова Татьяна Кирилловна",
+      "math": 80,
+      "russian": 65,
+      "physics": 88,
+      "score": 233,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020598,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Лебедев Роман Максимович",
+      "math": 67,
+      "russian": 92,
+      "physics": 73,
+      "score": 232,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020401,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егоров Никита Дмитриевич",
+      "math": 95,
+      "russian": 54,
+      "physics": 79,
+      "score": 231,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020586,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Федорова Алина Михайловна",
+      "math": 84,
+      "russian": 65,
+      "physics": 75,
+      "score": 231,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020481,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Сидоров Дмитрий Артёмович",
+      "math": 65,
+      "russian": 70,
+      "physics": 94,
+      "score": 231,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020493,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Петрова Ирина Дмитриевна",
+      "math": 94,
+      "russian": 75,
+      "physics": 54,
+      "score": 230,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020386,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Павлов Андрей Михайлович",
+      "math": 82,
+      "russian": 62,
+      "physics": 78,
+      "score": 230,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020503,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Павлова Дарья Кирилловна",
+      "math": 71,
+      "russian": 61,
+      "physics": 89,
+      "score": 230,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020477,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Смирнов Сергей Андреевич",
+      "math": 58,
+      "russian": 90,
+      "physics": 78,
+      "score": 230,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020479,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Петров Дмитрий Александрович",
+      "math": 67,
+      "russian": 72,
+      "physics": 82,
+      "score": 229,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020400,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Соколов Иван Максимович",
+      "math": 62,
+      "russian": 94,
+      "physics": 67,
+      "score": 229,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020465,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Егорова Мария Никитовна",
+      "math": 80,
+      "russian": 56,
+      "physics": 91,
+      "score": 228,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020411,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Смирнов Максим Дмитриевич",
+      "math": 62,
+      "russian": 97,
+      "physics": 64,
+      "score": 228,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020458,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Иванов Андрей Андреевич",
+      "math": 86,
+      "russian": 61,
+      "physics": 73,
+      "score": 227,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020363,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеев Роман Дмитриевич",
+      "math": 77,
+      "russian": 55,
+      "physics": 85,
+      "score": 226,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020521,
+      "recommendedFaculty": "ivt"
+    },
+    {
+      "fullName": "Егоров Андрей Максимович",
+      "math": 98,
+      "russian": 60,
+      "physics": 60,
+      "score": 225,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020484,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлова Ольга Кирилловна",
+      "math": 89,
+      "russian": 63,
+      "physics": 71,
+      "score": 225,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020459,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Смирнова Виктория Сергеевна",
+      "math": 80,
+      "russian": 59,
+      "physics": 80,
+      "score": 225,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020511,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федорова Екатерина Сергеевна",
+      "math": 66,
+      "russian": 100,
+      "physics": 58,
+      "score": 225,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020480,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Васильев Иван Андреевич",
+      "math": 65,
+      "russian": 95,
+      "physics": 65,
+      "score": 225,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020516,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлова Светлана Дмитриевна",
+      "math": 65,
+      "russian": 86,
+      "physics": 67,
+      "score": 225,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020376,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Иванова Ольга Ивановна",
+      "math": 80,
+      "russian": 58,
+      "physics": 79,
+      "score": 224,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020381,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егорова Светлана Артёмовна",
+      "math": 71,
+      "russian": 68,
+      "physics": 76,
+      "score": 224,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020523,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Сидоров Матвей Михайлович",
+      "math": 69,
+      "russian": 91,
+      "physics": 57,
+      "score": 224,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020496,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Васильева Светлана Ивановна",
+      "math": 61,
+      "russian": 94,
+      "physics": 64,
+      "score": 224,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020555,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенов Роман Андреевич",
+      "math": 60,
+      "russian": 88,
+      "physics": 76,
+      "score": 224,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020545,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егоров Иван Андреевич",
+      "math": 96,
+      "russian": 54,
+      "physics": 67,
+      "score": 223,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020436,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Смирнова Софья Александровна",
+      "math": 74,
+      "russian": 59,
+      "physics": 86,
+      "score": 223,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020568,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новикова Светлана Ивановна",
+      "math": 84,
+      "russian": 73,
+      "physics": 63,
+      "score": 222,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020402,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеева Виктория Сергеевна",
+      "math": 60,
+      "russian": 87,
+      "physics": 67,
+      "score": 222,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020542,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Соколов Артем Андреевич",
+      "math": 80,
+      "russian": 62,
+      "physics": 78,
+      "score": 221,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020448,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Павлова Софья Никитовна",
+      "math": 73,
+      "russian": 71,
+      "physics": 74,
+      "score": 221,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020509,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Васильев Роман Дмитриевич",
+      "math": 55,
+      "russian": 80,
+      "physics": 83,
+      "score": 221,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020432,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Павлова Виктория Максимовна",
+      "math": 52,
+      "russian": 64,
+      "physics": 95,
+      "score": 221,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020554,
+      "recommendedFaculty": "itss"
+    },
+    {
+      "fullName": "Волкова Наталья Ивановна",
+      "math": 65,
+      "russian": 63,
+      "physics": 88,
+      "score": 220,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020577,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Костина Светлана Ивановна",
+      "math": 91,
+      "russian": 62,
+      "physics": 56,
+      "score": 219,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020370,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егорова Софья Андреевна",
+      "math": 92,
+      "russian": 58,
+      "physics": 60,
+      "score": 218,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020538,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костин Максим Михайлович",
+      "math": 87,
+      "russian": 72,
+      "physics": 58,
+      "score": 218,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020512,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлова Ольга Никитовна",
+      "math": 85,
+      "russian": 76,
+      "physics": 54,
+      "score": 218,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020539,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Иванов Егор Максимович",
+      "math": 80,
+      "russian": 61,
+      "physics": 68,
+      "score": 218,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020398,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федоров Максим Сергеевич",
+      "math": 81,
+      "russian": 65,
+      "physics": 69,
+      "score": 217,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020478,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлов Матвей Александрович",
+      "math": 66,
+      "russian": 88,
+      "physics": 56,
+      "score": 217,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020548,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеев Матвей Иванович",
+      "math": 87,
+      "russian": 62,
+      "physics": 64,
+      "score": 216,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020583,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Новиков Илья Максимович",
+      "math": 65,
+      "russian": 61,
+      "physics": 87,
+      "score": 216,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020435,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Сидорова Ольга Артёмовна",
+      "math": 62,
+      "russian": 60,
+      "physics": 84,
+      "score": 216,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020421,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Иванов Роман Иванович",
+      "math": 82,
+      "russian": 71,
+      "physics": 60,
+      "score": 215,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020494,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеева Софья Кирилловна",
+      "math": 74,
+      "russian": 75,
+      "physics": 60,
+      "score": 215,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020495,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Иванов Роман Александрович",
+      "math": 61,
+      "russian": 60,
+      "physics": 84,
+      "score": 214,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020505,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлова Полина Ивановна",
+      "math": 60,
+      "russian": 85,
+      "physics": 61,
+      "score": 214,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020543,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлов Матвей Александрович",
+      "math": 89,
+      "russian": 62,
+      "physics": 62,
+      "score": 213,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020527,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлова Ольга Максимовна",
+      "math": 83,
+      "russian": 70,
+      "physics": 55,
+      "score": 213,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020530,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеев Сергей Михайлович",
+      "math": 82,
+      "russian": 65,
+      "physics": 61,
+      "score": 213,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020379,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новикова Екатерина Артёмовна",
+      "math": 74,
+      "russian": 57,
+      "physics": 72,
+      "score": 213,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020533,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Сидоров Кирилл Михайлович",
+      "math": 58,
+      "russian": 71,
+      "physics": 79,
+      "score": 213,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020552,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Васильев Дмитрий Никитович",
+      "math": 55,
+      "russian": 84,
+      "physics": 70,
+      "score": 213,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020433,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новиков Сергей Артёмович",
+      "math": 99,
+      "russian": 54,
+      "physics": 54,
+      "score": 212,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020483,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Соколов Иван Михайлович",
+      "math": 71,
+      "russian": 55,
+      "physics": 79,
+      "score": 212,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020393,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новикова Юлия Дмитриевна",
+      "math": 96,
+      "russian": 58,
+      "physics": 54,
+      "score": 210,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020464,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлова Полина Кирилловна",
+      "math": 77,
+      "russian": 58,
+      "physics": 75,
+      "score": 210,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020498,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егорова Анна Максимовна",
+      "math": 76,
+      "russian": 72,
+      "physics": 60,
+      "score": 210,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020389,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Иванов Александр Михайлович",
+      "math": 73,
+      "russian": 66,
+      "physics": 63,
+      "score": 210,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020515,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Кузнецов Александр Дмитриевич",
+      "math": 63,
+      "russian": 58,
+      "physics": 87,
+      "score": 210,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020574,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Сидорова Мария Дмитриевна",
+      "math": 50,
+      "russian": 55,
+      "physics": 99,
+      "score": 210,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020567,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенов Дмитрий Андреевич",
+      "math": 55,
+      "russian": 78,
+      "physics": 70,
+      "score": 209,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020372,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новикова Юлия Никитовна",
+      "math": 78,
+      "russian": 56,
+      "physics": 65,
+      "score": 208,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020563,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Петрова Дарья Андреевна",
+      "math": 74,
+      "russian": 73,
+      "physics": 61,
+      "score": 208,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020556,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Смирнов Егор Александрович",
+      "math": 79,
+      "russian": 66,
+      "physics": 60,
+      "score": 207,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020506,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Волков Егор Дмитриевич",
+      "math": 71,
+      "russian": 57,
+      "physics": 79,
+      "score": 207,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020475,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Смирнов Андрей Андреевич",
+      "math": 63,
+      "russian": 54,
+      "physics": 80,
+      "score": 207,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020486,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Сидорова Мария Андреевна",
+      "math": 51,
+      "russian": 71,
+      "physics": 76,
+      "score": 207,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020566,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костина Алина Александровна",
+      "math": 56,
+      "russian": 75,
+      "physics": 71,
+      "score": 206,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020378,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костин Сергей Кириллович",
+      "math": 56,
+      "russian": 58,
+      "physics": 86,
+      "score": 205,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020593,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Соколова Софья Дмитриевна",
+      "math": 50,
+      "russian": 63,
+      "physics": 83,
+      "score": 205,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020579,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Семенова Екатерина Ивановна",
+      "math": 77,
+      "russian": 63,
+      "physics": 61,
+      "score": 204,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020377,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костина Дарья Сергеевна",
+      "math": 61,
+      "russian": 50,
+      "physics": 84,
+      "score": 204,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020456,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлов Никита Андреевич",
+      "math": 77,
+      "russian": 73,
+      "physics": 50,
+      "score": 203,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020476,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Попов Михаил Александрович",
+      "math": 62,
+      "russian": 69,
+      "physics": 67,
+      "score": 203,
+      "bonusPoints": 5,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020541,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенов Максим Никитович",
+      "math": 62,
+      "russian": 66,
+      "physics": 65,
+      "score": 203,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020453,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новиков Егор Андреевич",
+      "math": 56,
+      "russian": 61,
+      "physics": 86,
+      "score": 203,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020562,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Кузнецова Полина Михайловна",
+      "math": 57,
+      "russian": 67,
+      "physics": 69,
+      "score": 202,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020404,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Иванов Егор Сергеевич",
+      "math": 75,
+      "russian": 65,
+      "physics": 52,
+      "score": 200,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020416,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костин Матвей Никитович",
+      "math": 68,
+      "russian": 70,
+      "physics": 62,
+      "score": 200,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020492,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Петрова Софья Сергеевна",
+      "math": 55,
+      "russian": 57,
+      "physics": 79,
+      "score": 200,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020362,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костина Ирина Никитовна",
+      "math": 95,
+      "russian": 52,
+      "physics": 50,
+      "score": 199,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020525,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новиков Даниил Александрович",
+      "math": 55,
+      "russian": 86,
+      "physics": 55,
+      "score": 199,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020426,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Морозов Михаил Кириллович",
+      "math": 68,
+      "russian": 60,
+      "physics": 63,
+      "score": 198,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020450,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Петров Андрей Артёмович",
+      "math": 50,
+      "russian": 66,
+      "physics": 73,
+      "score": 198,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020499,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егоров Максим Дмитриевич",
+      "math": 72,
+      "russian": 70,
+      "physics": 52,
+      "score": 197,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020588,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Морозов Илья Сергеевич",
+      "math": 55,
+      "russian": 77,
+      "physics": 60,
+      "score": 196,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "допущен",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020591,
+      "recommendedFaculty": "ib"
+    },
+    {
+      "fullName": "Волкова Виктория Максимовна",
+      "math": 51,
+      "russian": 59,
+      "physics": 79,
+      "score": 196,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020368,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенов Илья Артёмович",
+      "math": 69,
+      "russian": 58,
+      "physics": 65,
+      "score": 194,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020466,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Иванов Матвей Никитович",
+      "math": 55,
+      "russian": 67,
+      "physics": 64,
+      "score": 194,
+      "bonusPoints": 8,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020425,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Васильева Светлана Кирилловна",
+      "math": 52,
+      "russian": 53,
+      "physics": 79,
+      "score": 194,
+      "bonusPoints": 10,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020581,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егоров Кирилл Андреевич",
+      "math": 58,
+      "russian": 56,
+      "physics": 79,
+      "score": 193,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020463,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеев Артем Михайлович",
+      "math": 53,
+      "russian": 86,
+      "physics": 53,
+      "score": 193,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020375,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Соколов Дмитрий Дмитриевич",
+      "math": 68,
+      "russian": 61,
+      "physics": 60,
+      "score": 190,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020602,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Морозова Анна Максимовна",
+      "math": 53,
+      "russian": 74,
+      "physics": 56,
+      "score": 190,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020557,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлова Наталья Максимовна",
+      "math": 56,
+      "russian": 75,
+      "physics": 53,
+      "score": 188,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020575,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Семенов Дмитрий Никитович",
+      "math": 55,
+      "russian": 75,
+      "physics": 56,
+      "score": 188,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020474,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Михайлов Сергей Дмитриевич",
+      "math": 71,
+      "russian": 53,
+      "physics": 56,
+      "score": 187,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020487,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Волков Матвей Максимович",
+      "math": 68,
+      "russian": 60,
+      "physics": 50,
+      "score": 187,
+      "bonusPoints": 9,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020422,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Егорова Наталья Дмитриевна",
+      "math": 65,
+      "russian": 59,
+      "physics": 63,
+      "score": 187,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020431,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Кузнецова Ирина Артёмовна",
+      "math": 59,
+      "russian": 56,
+      "physics": 68,
+      "score": 187,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020572,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новиков Андрей Иванович",
+      "math": 58,
+      "russian": 74,
+      "physics": 55,
+      "score": 187,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020553,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Федорова Юлия Михайловна",
+      "math": 63,
+      "russian": 50,
+      "physics": 66,
+      "score": 186,
+      "bonusPoints": 7,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020395,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Морозов Михаил Артёмович",
+      "math": 55,
+      "russian": 76,
+      "physics": 51,
+      "score": 185,
+      "bonusPoints": 3,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ib",
+      "priorities": [
+        "ib"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020600,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костин Андрей Александрович",
+      "math": 61,
+      "russian": 54,
+      "physics": 65,
+      "score": 182,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020360,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Васильев Даниил Андреевич",
+      "math": 61,
+      "russian": 70,
+      "physics": 50,
+      "score": 181,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020460,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Павлова Алина Кирилловна",
+      "math": 54,
+      "russian": 71,
+      "physics": 54,
+      "score": 180,
+      "bonusPoints": 1,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020367,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Новикова Светлана Кирилловна",
+      "math": 56,
+      "russian": 65,
+      "physics": 51,
+      "score": 174,
+      "bonusPoints": 2,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "pm",
+      "priorities": [
+        "pm"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020354,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Козлова Ольга Артёмовна",
+      "math": 65,
+      "russian": 51,
+      "physics": 51,
+      "score": 173,
+      "bonusPoints": 6,
+      "achievements": [],
+      "status": "не участвует",
+      "hasConsent": false,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020549,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Алексеева Софья Александровна",
+      "math": 58,
+      "russian": 55,
+      "physics": 50,
+      "score": 167,
+      "bonusPoints": 4,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "itss",
+      "priorities": [
+        "itss"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020536,
+      "recommendedFaculty": null
+    },
+    {
+      "fullName": "Костина Татьяна Сергеевна",
+      "math": 54,
+      "russian": 52,
+      "physics": 59,
+      "score": 165,
+      "bonusPoints": 0,
+      "achievements": [],
+      "status": "на рассмотрении",
+      "hasConsent": true,
+      "faculty": "ivt",
+      "priorities": [
+        "ivt"
+      ],
+      "submissionDate": "2026-08-01",
+      "email": "",
+      "phone": "",
+      "id": 1770496020461,
+      "recommendedFaculty": null
+    }
+  ],
+  "settings": {
+    "passingScore": 240,
+    "campaignName": "Приемная кампания 2025",
+    "academicYear": "2025/2026",
+    "adminMode": true
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "operator",
+      "password": "123",
+      "role": "operator"
+    },
+    {
+      "id": 3,
+      "username": "viewer",
+      "password": "view",
+      "role": "viewer"
+    },
+    {
+      "id": 4,
+      "username": "Egor",
+      "password": "EgorLox",
+      "role": "admin",
+      "token": "68ebf0b9cb68ee57e4d4a0dedacfa447d72b7f8716f44912a678a5e85563d29d"
+    }
+  ],
+  "faculties": {
+    "pm": {
+      "name": "Прикладная математика (ПМ)",
+      "total": 25,
+      "occupied": 25,
+      "consents": 25,
+      "passingScore": 233
+    },
+    "ivt": {
+      "name": "Информатика и выч. техника (ИВТ)",
+      "total": 40,
+      "occupied": 40,
+      "consents": 40,
+      "passingScore": 226
+    },
+    "itss": {
+      "name": "Инфокоммуникационные технологии (ИТСС)",
+      "total": 20,
+      "occupied": 20,
+      "consents": 20,
+      "passingScore": 221
+    },
+    "ib": {
+      "name": "Информационная безопасность (ИБ)",
+      "total": 15,
+      "occupied": 15,
+      "consents": 15,
+      "passingScore": 196
+    }
+  },
+  "archive": []
+}
